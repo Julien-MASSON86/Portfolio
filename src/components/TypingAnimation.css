@@ -1,0 +1,37 @@
+body {
+    background-image: url(../assets/background_portfolio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.typing-animation {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 58px !important;
+    font-weight: bold;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid transparent;
+    animation: typing 3s steps(24) forwards, blink-caret 0.75s step-end infinite;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  @keyframes blink-caret {
+    from, to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: rgb(228, 233, 234);
+    }
+  }
+  
